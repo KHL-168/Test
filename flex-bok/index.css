@@ -1,0 +1,11 @@
+.box {
+    width: 280px;
+    height: 330px;
+    background-color: blueviolet;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+}

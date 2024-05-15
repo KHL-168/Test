@@ -1,0 +1,54 @@
+*{
+    color: black;
+}
+
+/* id seletor */
+#idTitle{
+    color: greenyellow;
+}
+/* class seletor */
+.title {
+    color: red;
+}
+
+/* type selector */
+h1 {
+    color: blue;
+}
+
+/*  TODO attribute selector (link) */
+/* id selector */
+#id-link {
+    color: rgb(29, 40, 143);
+  }
+
+/* Attribute selector */
+a[href] {
+    color: aqua;
+}
+
+/* class selector */
+.link {
+    color: blue;
+}
+
+a {
+    color: purple;
+}
+
+
+/* Group selector */
+h1,p,a{
+    color: burlywood;
+}
+
+/* combainertor  */
+div h1 {
+    color: cadetblue;
+}
+
+div > h1{
+    color: rgb(100, 25, 25);
+}
+
+  

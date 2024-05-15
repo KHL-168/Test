@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    font-family: "Kanit", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.navbar {
+    background-color: rgb(18, 125, 113);
+}
+
+header nav ul {
+    width: 100%;
+    /* height: 60px; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header nav ul li {
+    padding: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: white;
+}
+
+header nav ul li:hover {
+    background-color: darkgray;
+}
+
+.title {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.title h1 {
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+.title p {
+    font-size: 1rem;
+}
+
+.course-tab {
+    width: 80%;
+    margin: auto;
+    
+}
+
+.tabs {
+    margin-top: 20px;
+    border-radius: 8px; 
+    overflow: hidden; 
+    background-color: rgb(163, 189, 189);
+}
+
+.tabs ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tabs ul li {
+    font-size: 1rem;
+    font-weight: 500;
+    color: white;
+    padding: 20px;
+    color: rgb(17, 16, 16);
+}
+
+.tabs ul li:hover {
+    background-color: rgb(218, 210, 210);
+    color: rgb(113, 113, 113);
+}
+
+.card-container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.card {
+    margin-top: 15px;
+    width: 290px;
+    height: 480px;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: rgb(233, 233, 233);
+}
+
+.card img {
+    width: 100%;
+    height: 45%;
+} 
+
+.box-title {
+    margin: 0;
+    width: 100%;
+    height: 55%;
+    padding: 15px;    
+}
+
+.box-title .lable {
+    display: flex;
+    justify-content: space-between;
+}
+
+small {
+    color: white;
+    background-color: darkcyan;
+    border-radius: 3px;
+    padding: 3px 10px 3px 10px;
+}
+
+.box-title .lable  i {
+    margin-top: 5px;
+}
+
+.letters {
+    margin-top: 8px;
+}
+
+.letters h1 {
+    font-size: 1.4rem;
+    font-weight: 450;
+}
+
+.star {
+    margin-top: 5px;
+    padding-bottom: 15px;
+}
+
+.star span {
+    margin-left: 10px;
+    font-size: 1rem;
+}
+
+.box-footer {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+

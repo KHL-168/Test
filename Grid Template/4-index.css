@@ -1,0 +1,15 @@
+*{
+    box-sizing: border-box;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 200px);
+    background-color: rgb(159, 150, 150);
+    gap: 10px;
+}
+
+.box {
+    background-color: aqua;
+}
